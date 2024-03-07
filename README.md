@@ -1,4 +1,5 @@
 #PHP mini-framework
+
 This is an Open-source PHP mini framework developed for learning and practice purposes. It provides a basic structure and some common functionalities typically found in larger frameworks. However, please note that this framework is not intended for production use. It lacks many features and optimizations necessary for robust and secure applications.
 
 Features:
