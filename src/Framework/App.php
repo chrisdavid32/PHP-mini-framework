@@ -5,9 +5,21 @@ namespace Framework;
 
 class App
 {
- public function run()
- {
-    echo "application is runing";
- }
- 
+   private Router $router;
+
+   public function __construct()
+   {
+      $this->router = new Router();
+   }
+
+   public function run()
+   {
+      echo "application is runing";
+   }
+
+   public function get(string $path)
+   {
+      $this->router->add('GET',$path);
+   }
+   
 }
