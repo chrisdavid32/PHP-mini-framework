@@ -37,7 +37,7 @@ class Router
         }
         [$class, $function] = $route['controller'];
         $controllerInstance = new $class;
-        $controllerInstance->$function();
+        $controllerInstance->{$function}();
     }
    }
 }
