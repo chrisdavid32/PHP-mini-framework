@@ -11,5 +11,5 @@ $app = new App();
 
 $app->get('/', [HomeController::class, 'home']);
  
-dd($app);
+// dd($app);
 return $app;
